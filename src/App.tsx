@@ -1370,11 +1370,7 @@ export default function App() {
               <p className="text-slate-400 text-xs">
                 Приймаємо замовлення щодня з 10:00 до 21:00. При самовивозі діє знижка -5% на весь асортимент меню!
               </p>
-              <div className="flex justify-center space-x-3 text-slate-400 text-xs">
-                <span className="bg-white/5 px-3 py-1 rounded-full">🌶️ Сухий кріп</span>
-                <span className="bg-white/5 px-3 py-1 rounded-full">🌿 Лимон</span>
-                <span className="bg-white/5 px-3 py-1 rounded-full">🍋 Лавровий лист</span>
-              </div>
+
             </div>
 
             {/* Column 3: Contacts */}
