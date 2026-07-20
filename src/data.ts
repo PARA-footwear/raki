@@ -47,7 +47,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 1000,
     unit: 'кг',
     description: 'Малі пивні раки з ніжним м’ясом. Тонкий панцир дозволяє їм швидко просочуватися ароматним розсолом з кропом.',
-    imageUrl: 'https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/mrjFB7DL/1.png',
     available: true,
   },
   {
@@ -58,7 +58,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 1300,
     unit: 'кг',
     description: 'Найбільш популярний класичний розмір. Ідеальний баланс між кількістю раків та об’ємом соковитого м’яса.',
-    imageUrl: 'https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/Hk4r9bby/2.png',
     available: true,
   },
   {
@@ -69,7 +69,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 1600,
     unit: 'кг',
     description: 'Чудові середні раки з великими м’ясистими шийками та смачними клешнями для компанії друзів.',
-    imageUrl: 'https://images.unsplash.com/photo-1607532941433-304659e8198a?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/0r1NpNQG/3.png',
     available: true,
   },
   {
@@ -80,7 +80,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 2100,
     unit: 'кг',
     description: 'Солідні великі раки. Багато м’яса в шийці та соковиті клешні, які оцінять справжні гурмани.',
-    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a35f4520b?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/HkCz6GPP/4.png',
     available: true,
   },
   {
@@ -91,7 +91,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 2600,
     unit: 'кг',
     description: 'Елітні добірні раки. Прекрасний вибір для святкового столу чи вишуканого подарунка.',
-    imageUrl: 'https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/9MzYDczN/5.png',
     available: true,
   },
   {
@@ -102,7 +102,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 3000,
     unit: 'кг',
     description: 'Величезні екстра-раки річкових глибин. Неймовірні за розміром, з масивними клешнями.',
-    imageUrl: 'https://images.unsplash.com/photo-1607532941433-304659e8198a?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/6qvVhzVW/6.png',
     available: true,
   },
   {
@@ -113,7 +113,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 3200,
     unit: 'кг',
     description: 'Справжні королівські гіганти. Найбільші раки, які вражають своїм виглядом і соковитим ніжним м’ясом.',
-    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a35f4520b?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://i.postimg.cc/ZYGxqtZ5/7.png',
     available: true,
   },
   {

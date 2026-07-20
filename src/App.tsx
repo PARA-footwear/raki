@@ -595,7 +595,7 @@ export default function App() {
         {!activeOrderId && (
           <section className="relative bg-slate-900 text-white overflow-hidden py-16 sm:py-24">
             {/* Background Image overlay with low opacity */}
-            <div className="absolute inset-0 z-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?auto=format&fit=crop&w=1600&q=80')" }}></div>
+            <div className="absolute inset-0 z-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('https://i.postimg.cc/ZYGxqtZ5/7.png')" }}></div>
             {/* Black gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/40 z-10"></div>
 
@@ -663,7 +663,7 @@ export default function App() {
                   <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full bg-radial from-brand-coral/20 to-transparent flex items-center justify-center">
                     <div className="absolute inset-0 border border-brand-coral/10 rounded-full animate-pulse-subtle"></div>
                     <img 
-                      src="https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?auto=format&fit=crop&w=600&q=80" 
+                      src="https://i.postimg.cc/ZYGxqtZ5/7.png" 
                       alt="Boiled Crayfish Gourmet Plate"
                       className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 object-cover rounded-full shadow-2xl border-4 border-brand-coral animate-float relative z-10"
                     />
