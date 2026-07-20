@@ -109,11 +109,11 @@ export default function App() {
     return cart.reduce((acc, item) => acc + (item.product.price * item.quantity), 0);
   }, [cart]);
 
-  // Cooking fee: +50 UAH per kg of boiled crawfish
+  // Cooking fee: +200 UAH per kg of boiled crawfish
   const cookingFee = useMemo(() => {
     return cart
       .filter(item => item.prepType === 'boiled' && item.product.unit === 'кг')
-      .reduce((acc, item) => acc + (item.quantity * 50), 0);
+      .reduce((acc, item) => acc + (item.quantity * 200), 0);
   }, [cart]);
 
   // Gift spices check: free gift package of spices if total crawfish weight is >= 2kg
@@ -559,13 +559,13 @@ export default function App() {
                           <div>
                             <span className="font-semibold text-slate-800">{item.productName}</span>
                             <span className="text-xs text-slate-500 block">
-                              Формат: {item.prepType === 'boiled' ? '🌶️ Варений (+50 грн/кг)' : '💧 Живий'}
+                              Формат: {item.prepType === 'boiled' ? '🌶️ Варений (+200 грн/кг)' : '💧 Живий'}
                             </span>
                           </div>
                           <div className="text-right">
                             <span className="text-slate-600 block">{item.quantity} {item.unit} x {item.price} грн</span>
                             <span className="font-mono font-bold text-slate-900">
-                              {item.quantity * item.price + (item.prepType === 'boiled' && item.unit === 'кг' ? item.quantity * 50 : 0)} грн
+                              {item.quantity * item.price + (item.prepType === 'boiled' && item.unit === 'кг' ? item.quantity * 200 : 0)} грн
                             </span>
                           </div>
                         </div>
@@ -875,7 +875,7 @@ export default function App() {
                                 <span className="text-sm">🌶️</span>
                                 <div>
                                   <div className="leading-tight">Варені</div>
-                                  <div className="text-[8px] opacity-75 font-normal">+50 грн/кг</div>
+                                  <div className="text-[8px] opacity-75 font-normal">+200 грн/кг</div>
                                 </div>
                               </button>
 
@@ -1047,7 +1047,7 @@ export default function App() {
                         <div className="divide-y divide-slate-100">
                           {cart.map((item, index) => {
                             const subPrice = item.product.price * item.quantity;
-                            const cookingAddition = item.prepType === 'boiled' && item.product.unit === 'кг' ? (item.quantity * 50) : 0;
+                            const cookingAddition = item.prepType === 'boiled' && item.product.unit === 'кг' ? (item.quantity * 200) : 0;
                             const itemTotal = subPrice + cookingAddition;
                             
                             return (
@@ -1287,7 +1287,7 @@ export default function App() {
                           
                           {cookingFee > 0 && (
                             <div className="flex justify-between">
-                              <span className="text-slate-500">Послуга варіння (+50 грн/кг):</span>
+                              <span className="text-slate-500">Послуга варіння (+200 грн/кг):</span>
                               <span className="font-mono font-semibold text-rose-600">+{cookingFee} грн</span>
                             </div>
                           )}
