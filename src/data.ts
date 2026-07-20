@@ -80,7 +80,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 1400,
     unit: 'кг',
     description: 'Справжні річкові гіганти. Величезні раки з неймовірною кількістю ніжнішого делікатесного м’яса. Ідеально підходять на дорогий подарунок.',
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a35f4520b?auto=format&fit=crop&w=600&q=80',
     available: true,
   },
   {

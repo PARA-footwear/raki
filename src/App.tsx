@@ -345,7 +345,7 @@ export default function App() {
               </div>
               <div>
                 <h1 className="font-display font-bold text-xl sm:text-2xl tracking-tight text-slate-900 flex items-center gap-1.5">
-                  РАКОВАРНЯ <span className="text-brand-coral">№1</span>
+                  РАКИ У <span className="text-brand-coral">РОМАНА</span>
                 </h1>
                 <p className="text-[10px] sm:text-xs text-slate-500 font-medium uppercase tracking-widest -mt-1">
                   Живі та варені раки
@@ -653,7 +653,7 @@ export default function App() {
                       className="w-full sm:w-auto text-center px-8 py-4 bg-white/10 hover:bg-white/15 text-white rounded-full font-bold border border-white/20 transition-colors text-base flex items-center justify-center gap-2"
                     >
                       <Phone className="h-5 w-5 text-brand-coral" />
-                      Позвонити менеджеру
+                      Подзвонити Роману
                     </a>
                   </div>
                 </div>
@@ -1354,7 +1354,7 @@ export default function App() {
             {/* Column 1: Info */}
             <div className="space-y-3 text-center md:text-left">
               <h4 className="font-display font-bold text-lg text-white flex items-center justify-center md:justify-start gap-1">
-                🦞 Раковарня <span className="text-brand-coral">№1</span>
+                🦞 Раки у <span className="text-brand-coral">Романа</span>
               </h4>
               <p className="text-slate-400 text-xs leading-relaxed">
                 Найкращий вибір добірних живих та свіжозварених раків у вашому місті. Гарантія якості, щоденний прийом вилову та найшвидша доставка в термобоксах.
